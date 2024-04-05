@@ -1,0 +1,11 @@
+pathlib
+typing
+matplotlib
+numpy
+pandas
+seaborn
+tqdm
+gymnasium
+flask
+gym==0.2.0
+pyglet==1.5.27

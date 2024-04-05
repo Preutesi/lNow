@@ -1,0 +1,89 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #141414;
+    text-align: center;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    color: white;
+    margin-top: 8%;
+    visibility: collapse;
+}
+
+#learnNowCanvas{
+    border: 1px solid white;
+}
+
+#learnNowWrapper{
+    margin-top: 100px;
+}
+
+#chart1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#chart2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tableItemsContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.st_viewport{
+    background-color: rgb(62,148,236);
+    color: rgb(27,30,36);
+}
+
+.st_table_header{
+    margin-top: 5%;
+    position: sticky;
+    z-index: 1;
+    background-color: rgb(27,30,36);
+    color: rgb(220,220,220);
+    padding-top: 1%;
+}
+
+.tbRow{
+    display: inline-block;
+    margin-bottom: -0.4%;
+}
+
+#divItem1{
+    float: left;
+}
+#divItem2{
+    float: left;
+}
+#divItem3{
+    float: right;
+}
+
+.st_row{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+}
+
+.st1_column{
+    width: calc(100%/3);
+    padding-bottom: 3%;
+}
+.st2_column{
+    width: calc(100%/3);
+    padding-bottom: 3%;
+}
+.st3_column{
+    width: calc(100%/3);
+    padding-bottom: 3%;
+}

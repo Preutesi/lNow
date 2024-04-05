@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div id="learnNowWrapper"></div>
+
+    <div class="tableItemsContainer">
+        <header class="st_table_header">
+            <h2>Table of attempts</h2>
+            <div class="st_row">
+                <div class="st1_column">Attempt N°</div>
+                <div class="st2_column">Number of attempts</div>
+                <div class="st3_column">Reward</div>
+            </div>
+        </header>
+        <div class="st_table" id="tableItemsContainer">
+
+        </div>
+    </div>
+    <h3>Attempts graph: x axis is the attempt number y is the number of moves</h3>
+    <div>
+        <canvas id="chart1"></canvas>
+    </div>
+    <h3>Rewards graph: x axis is the attempt number y value of the reward</h3>
+    <div>
+        <canvas id="chart2"></canvas>
+    </div>
+    
+    <script src="./script/learnNow.js"></script>
+    <script>
+        function initLeranNow(){
+            var options = {
+                rows: 5,
+                columns: 6,
+                obstacles: 3,
+                attempts: 50
+            }
+            learnNow(options);
+        }
+        window.onload = initLeranNow;
+    </script>
+</body>
+</html>
